@@ -392,6 +392,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-bottom:10rem; /*Added*/
 }
 
 .color-container {
@@ -413,6 +414,19 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+/* RESEARCH SECTION */
+
+#publications {
+  position: relative;
+  padding-top: 1rem;
+  margin-bottom:10rem; /*Added*/
+}
+
+.publication-title {
+  margin: 1rem;
+  color: black;
 }
 
 /* CONTACT */
