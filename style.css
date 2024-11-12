@@ -431,6 +431,12 @@ article .icon {
   height: 90%;
 }
 
+.art-img {
+  width: auto;
+  height: 600px;
+  object-fit: cover;
+}
+
 .project-title {
   margin: 1rem;
   color: black;
