@@ -56,9 +56,12 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
+  #contact {
     height: 40vh;
+  }
+  footer {
+    position: relative;
+    margin-top: 2rem;
   }
   #profile {
     height: 83vh;
@@ -88,6 +91,13 @@
   }
   .logo {
     font-size: 1.5rem;
+  }
+  .logo img {
+    height: 90px;
+    width: 120px;
+  }
+  .nav-links-container {
+    display: none;
   }
   .nav-links {
     flex-direction: column;

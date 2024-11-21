@@ -68,8 +68,8 @@ a:hover {
 
 .logo img {
   padding-top: 0.5em;
-  height: 80px;
-  width: 80px;
+  height: l20px;
+  width: 165px;
 }
 
 /* HAMBURGER MENU */
@@ -510,7 +510,33 @@ article .icon {
 
 /* FOOTER SECTION */
 
+/* Base footer styling */
 footer {
+  position: relative; /* Use relative to avoid overlapping */
+  bottom: 0; /* Aligns to the bottom of its container */
+  width: 100%; /* Full width */
+  height: auto; /* Allow height to adjust based on content */
+  /* background-color: #f8f9fa; */
+  text-align: center;
+  padding: 1rem 0; /* Add some padding for spacing */
+  z-index: 1; /* Ensure it's above other elements if needed */
+  margin-bottom: 1em;
+}
+
+footer img {
+  width: 1em;
+  vertical-align: middle;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) { /* Target screens smaller than 768px */
+  footer {
+    position: relative;
+    margin-top: 2rem;
+  }
+}
+
+/* footer {
   height: 26vh;
   margin: 0 1rem;
 }
@@ -522,4 +548,4 @@ footer p {
 footer img {
   width: 1em;
   vertical-align: middle;
-}
+} */
