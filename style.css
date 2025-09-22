@@ -39,6 +39,22 @@ nav {
   height: 17vh;
 }
 
+/* #desktop-nav, #hamburger-nav {
+  width: 80%;
+  margin: 2rem auto;
+  position: fixed;
+  border-radius: 20rem;
+  --shadow-color: 0deg 0% 68%;
+  box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
+              0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
+              0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
+              2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
+              4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
+              9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
+              15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
+              24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
+} */
+
 .nav-links {
   gap: 2rem;
   list-style: none;
@@ -294,7 +310,7 @@ section {
 
 #about {
   position: relative;
-  margin-bottom:20rem;
+  margin-bottom:10rem;
 }
 
 .about-containers {
@@ -334,12 +350,6 @@ section {
               9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
               15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
               24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
-}
-
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
 }
 
 .details-container {
@@ -512,40 +522,32 @@ article .icon {
 
 /* Base footer styling */
 footer {
-  position: relative; /* Use relative to avoid overlapping */
-  bottom: 0; /* Aligns to the bottom of its container */
-  width: 100%; /* Full width */
-  height: auto; /* Allow height to adjust based on content */
-  /* background-color: #f8f9fa; */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
   text-align: center;
-  padding: 1rem 0; /* Add some padding for spacing */
-  z-index: 1; /* Ensure it's above other elements if needed */
+  padding: 1rem 0;
+  z-index: 1;
   margin-bottom: 1em;
 }
 
 footer img {
   width: 1em;
   vertical-align: middle;
+  transform: translateX(-5px);
+  animation: float 0.9s linear infinite alternate;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0px) translateX(-5px);}
+  100% { transform: translateY(-1px) translateX(-4px);}
 }
 
 /* Mobile-specific styles */
-@media (max-width: 768px) { /* Target screens smaller than 768px */
+@media (max-width: 768px) {
   footer {
     position: relative;
     margin-top: 2rem;
   }
 }
-
-/* footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-
-footer p {
-  text-align: center;
-}
-
-footer img {
-  width: 1em;
-  vertical-align: middle;
-} */

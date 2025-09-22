@@ -126,3 +126,16 @@
     width: 300px;
   }
 }
+
+
+.two-column-row {
+  justify-content: center;
+}
+.two-column-row .details-container {
+  max-width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .two-column-row .details-container {
+    max-width: 100%;
+  }
+}
