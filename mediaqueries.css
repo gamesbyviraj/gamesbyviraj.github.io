@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 8 3vh;
+    height: 100vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -51,7 +51,7 @@
   .about-pic {
     width: 100%;
     height: 100%;
-    object-position: 0 25%;
+    object-position: 0 35%;
   }
 }
 
@@ -64,7 +64,8 @@
     margin-top: 2rem;
   }
   #profile {
-    height: 83vh;
+    height: 100vh;
+    padding-top: 10rem;
     margin-bottom: 0;
   }
   article {
@@ -149,12 +150,19 @@
     text-align: justify;
   }
   .text-container p {
-    /* max-width: 90%; */
     line-height: 1.6;
     font-size: 1rem;
   }
   .about-pic {
     width: 90vw;
-    height: 90vw;
+    height: 45vw;
+    margin-bottom: 0;
+  }
+  #photos, #art, #experience, #projects, #publications {
+    padding-top: 0;
+  }
+  footer {
+    position: relative;
+    margin-top: 2rem;
   }
 }
