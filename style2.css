@@ -54,7 +54,7 @@ nav {
   transform: translateX(-50%);
   width: calc(100% - 60px);
   max-width: 1000px;
-  border-radius: 50px;
+  border-radius: 2rem;
   z-index: 1000;
 }
 
@@ -241,7 +241,7 @@ section {
 }
 
 .section__text__p1 {
-  transform: translate(0.2rem, 0.8rem);
+  transform: translate(0.2rem, 1.6rem);
 }
 
 .section__text__p2 {
@@ -251,6 +251,7 @@ section {
 
 .title {
   font-size: 3rem;
+  margin-top: 1rem;
   color: #FCC61D;
 }
 
@@ -362,17 +363,7 @@ section {
   padding: 1.5rem;
   flex: 1;
   background: white;
-  /* border-radius: 2rem; */
   text-align: center;
-  /* --shadow-color: 0deg 0% 68%; */
-  box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
-              0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
-              0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
-              2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
-              4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
-              9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
-              15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
-              24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
 }
 
 .details-container p {
@@ -395,7 +386,7 @@ section {
 
 #photos {
   position: relative;
-  padding-top: 10rem;
+  padding-top: 5rem;
   margin-bottom:10rem;
 }
 
@@ -440,8 +431,8 @@ article .icon {
 
 #art {
   position: relative;
-  padding-top: 10rem;
-  margin-bottom:10rem; /*Added*/
+  padding-top: 5rem;
+  margin-bottom:10rem;
 }
 
 .project-img {
@@ -507,19 +498,6 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
-}
-
-/* RESEARCH SECTION */
-
-#publications {
-  position: relative;
-  padding-top: 1rem;
-  margin-bottom:10rem;
-}
-
-.publication-title {
-  margin: 1rem;
   color: black;
 }
 
