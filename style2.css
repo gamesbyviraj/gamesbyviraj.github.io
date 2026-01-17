@@ -63,7 +63,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  background: rgba(255, 248, 222, 0.8);
+  background: rgba(255, 248, 222, 1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   position: fixed;
@@ -540,7 +540,7 @@ article .icon {
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
-  --shadow-color: 0deg 0% 68%;
+  --shadow-color: 48deg 34% 58%;
   box-shadow:     0.2px 1px 0.8px hsl(var(--shadow-color) / 0.57),
                   0.3px 1.2px 0.9px -0.7px hsl(var(--shadow-color) / 0.5),
                   0.7px 3px 2.3px -1.4px hsl(var(--shadow-color) / 0.43),
