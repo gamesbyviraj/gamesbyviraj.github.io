@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 8 3vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -125,16 +125,36 @@
     height: auto;
     width: 300px;
   }
+  
 }
 
-.two-column-row {
-  justify-content: center;
-}
-.two-column-row .details-container {
-  max-width: 30%;
-}
 @media screen and (max-width: 768px) {
   .two-column-row .details-container {
     max-width: 100%;
+  }
+  #about-pic-container,
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  .about-details-container {
+    align-items: center;
+    text-align: center;
+  }
+  .text-container {
+    padding: 0 1rem;
+    text-align: justify;
+  }
+  .text-container p {
+    /* max-width: 90%; */
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  .about-pic {
+    width: 90vw;
+    height: 90vw;
   }
 }

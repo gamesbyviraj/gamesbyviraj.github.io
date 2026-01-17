@@ -37,7 +37,36 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 12vh;
+  /* --shadow-color: 48deg 34% 58%;
+  box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
+              0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
+              0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
+              2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
+              4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
+              9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
+              15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
+              24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
+  border-radius: 30px;
+  margin: 30px; */
+}
+
+#desktop-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  background: rgba(255, 248, 222, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 60px);
+  max-width: 1000px;
+  border-radius: 50px;
+  z-index: 1000;
 }
 
 /* #desktop-nav, #hamburger-nav {
@@ -63,15 +92,17 @@ nav {
 }
 
 a {
-  color: black;
+  /* color: black; */
+  color: rgb(85, 85, 85);
+  font-weight: 500;
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
   color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
+  /* text-decoration: underline; */
+  /* text-underline-offset: 1rem; */
   text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -189,7 +220,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 100vh;
   margin-bottom: 6rem;
 }
 
@@ -239,7 +270,6 @@ section {
   /* color: #FFC50F; */
   /* color: #F5C857; */
   color: #FCC61D;
-  margin-bottom: 1rem;
 }
 
 #socials-container {
@@ -386,8 +416,9 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#photos {
   position: relative;
+  padding-top: 10rem;
   margin-bottom:10rem;
 }
 
@@ -431,8 +462,9 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
+#art {
   position: relative;
+  padding-top: 10rem;
   margin-bottom:10rem; /*Added*/
 }
 
