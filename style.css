@@ -213,13 +213,13 @@ section {
   border-radius: 50%;
   --shadow-color: 0deg 0% 68%;
   box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
-              0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
-              0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
-              2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
-              4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
-              9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
-              15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
-              24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
+    0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
+    0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
+    2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
+    4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
+    9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
+    15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
+    24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
 }
 
 .section__pic-container {
@@ -289,13 +289,13 @@ section {
   border: rgb(255, 255, 255) 0.1rem solid;
   --shadow-color: 0deg 0% 68%;
   box-shadow: 0.2px 0.3px 0.3px hsl(var(--shadow-color) / 0.57),
-              0.3px 0.3px 0.3px -0.7px hsl(var(--shadow-color) / 0.5),
-              0.7px 0.8px 0.8px -1.4px hsl(var(--shadow-color) / 0.43),
-              1.7px 2px 2px -2.1px hsl(var(--shadow-color) / 0.35),
-              3.7px 4.5px 4.4px -2.9px hsl(var(--shadow-color) / 0.28),
-              7px 8.5px 8.3px -3.6px hsl(var(--shadow-color) / 0.21),
-              12px 14.5px 14.1px -4.3px hsl(var(--shadow-color) / 0.14),
-              18.9px 22.8px 22.2px -5px hsl(var(--shadow-color) / 0.07);
+    0.3px 0.3px 0.3px -0.7px hsl(var(--shadow-color) / 0.5),
+    0.7px 0.8px 0.8px -1.4px hsl(var(--shadow-color) / 0.43),
+    1.7px 2px 2px -2.1px hsl(var(--shadow-color) / 0.35),
+    3.7px 4.5px 4.4px -2.9px hsl(var(--shadow-color) / 0.28),
+    7px 8.5px 8.3px -3.6px hsl(var(--shadow-color) / 0.21),
+    12px 14.5px 14.1px -4.3px hsl(var(--shadow-color) / 0.14),
+    18.9px 22.8px 22.2px -5px hsl(var(--shadow-color) / 0.07);
 }
 
 .btn-color-1:hover,
@@ -329,7 +329,7 @@ section {
 
 #about {
   position: relative;
-  margin-bottom:10rem;
+  margin-bottom: 10rem;
 }
 
 .about-containers {
@@ -362,13 +362,13 @@ section {
   margin-bottom: 5rem;
   --shadow-color: 0deg 0% 68%;
   box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
-              0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
-              0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
-              2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
-              4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
-              9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
-              15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
-              24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
+    0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
+    0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
+    2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
+    4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
+    9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
+    15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
+    24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
 }
 
 .details-container {
@@ -379,13 +379,13 @@ section {
   text-align: center;
   --shadow-color: 0deg 0% 68%;
   box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
-              0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
-              0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
-              2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
-              4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
-              9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
-              15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
-              24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
+    0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
+    0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
+    2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
+    4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
+    9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
+    15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
+    24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
 }
 
 .details-container p {
@@ -408,7 +408,7 @@ section {
 #experience {
   position: relative;
   padding-top: 5rem;
-  margin-bottom:10rem;
+  margin-bottom: 10rem;
 }
 
 .experience-sub-title {
@@ -427,6 +427,7 @@ section {
 .two-column-row {
   justify-content: center;
 }
+
 .two-column-row .details-container {
   max-width: 30%;
 }
@@ -434,17 +435,45 @@ section {
 .article-container {
   display: flex;
   text-align: initial;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: row;
-  gap: 1rem;
+  gap: 5rem;
   justify-content: left;
-  padding-left: 2em;
+  padding-bottom: 5em;
 }
 
 article {
   display: flex;
-  justify-content: space-evenly;
-  gap: 0.5rem;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* gap: 2rem; */
+  /* padding: 1rem; */
+  /* border-bottom: 1px solid black; */
+
+  padding: 2.5rem;
+  /* flex: 1; */
+  /* background: white; */
+  border-radius: 2rem;
+  /* text-align: center; */
+  --shadow-color: 0deg 0% 68%;
+  box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
+    0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
+    0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
+    2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
+    4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
+    9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
+    15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
+    24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
+}
+
+article div {
+  width: 100%;
+}
+
+article h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
 }
 
 article div p {
@@ -459,14 +488,40 @@ article .icon {
 
 #projects {
   position: relative;
-  padding-top: 5rem;
-  margin-bottom:10rem;
+  /* padding-top: 5rem; */
+  margin-bottom: 10rem;
 }
 
 .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+}
+
+.work-block {
+  position: relative;
+  padding-right: 2rem;
+}
+
+.work-block h4 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  /* color: rgb(53, 53, 53); */
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  padding: 4px 8px;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.36);
+}
+
+.article-img {
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  /* display: block; */
+  object-fit: cover;
 }
 
 .art-img {
@@ -489,7 +544,7 @@ article .icon {
 #publications {
   position: relative;
   padding-top: 5rem;
-  margin-bottom:10rem;
+  margin-bottom: 10rem;
 }
 
 .publication-title {
@@ -515,14 +570,14 @@ article .icon {
   margin: 2rem auto;
   padding: 0.5rem;
   --shadow-color: 0deg 0% 68%;
-  box-shadow:     0.2px 1px 0.8px hsl(var(--shadow-color) / 0.57),
-                  0.3px 1.2px 0.9px -0.7px hsl(var(--shadow-color) / 0.5),
-                  0.7px 3px 2.3px -1.4px hsl(var(--shadow-color) / 0.43),
-                  1.9px 7.6px 5.9px -2.1px hsl(var(--shadow-color) / 0.35),
-                  4.1px 16.7px 12.9px -2.9px hsl(var(--shadow-color) / 0.28),
-                  7.9px 31.6px 24.4px -3.6px hsl(var(--shadow-color) / 0.21),
-                  13.4px 53.9px 41.7px -4.3px hsl(var(--shadow-color) / 0.14),
-                  21.1px 85px 65.7px -5px hsl(var(--shadow-color) / 0.07);
+  box-shadow: 0.2px 1px 0.8px hsl(var(--shadow-color) / 0.57),
+    0.3px 1.2px 0.9px -0.7px hsl(var(--shadow-color) / 0.5),
+    0.7px 3px 2.3px -1.4px hsl(var(--shadow-color) / 0.43),
+    1.9px 7.6px 5.9px -2.1px hsl(var(--shadow-color) / 0.35),
+    4.1px 16.7px 12.9px -2.9px hsl(var(--shadow-color) / 0.28),
+    7.9px 31.6px 24.4px -3.6px hsl(var(--shadow-color) / 0.21),
+    13.4px 53.9px 41.7px -4.3px hsl(var(--shadow-color) / 0.14),
+    21.1px 85px 65.7px -5px hsl(var(--shadow-color) / 0.07);
 }
 
 .contact-info-container {
@@ -567,6 +622,11 @@ footer img {
 }
 
 @keyframes float {
-  0%   { transform: translateY(0px) translateX(-5px);}
-  100% { transform: translateY(-1px) translateX(-4px);}
+  0% {
+    transform: translateY(0px) translateX(-5px);
+  }
+
+  100% {
+    transform: translateY(-1px) translateX(-4px);
+  }
 }
