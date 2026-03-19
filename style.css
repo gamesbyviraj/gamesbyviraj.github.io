@@ -250,6 +250,7 @@ section {
   font-size: 3rem;
   text-align: center;
   color: #FCC61D;
+  text-shadow: 1px 1px 1px rgba(85, 85, 85, 0.1);
 }
 
 #socials-container {
