@@ -515,7 +515,7 @@ article:hover {
   left: 15px;
   margin: 0;
   padding: 4px 8px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 2px 0px rgba(85, 85, 85, 1);
   z-index: 1;
 }
 
