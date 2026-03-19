@@ -44,7 +44,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 12vh;
-  background: rgba(255, 248, 222, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   position: fixed;
