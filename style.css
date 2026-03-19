@@ -444,14 +444,23 @@ article {
   padding: 1.5rem;
   background: white;
   border-radius: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
+  --shadow-color: 0deg 0% 68%;
+  box-shadow: 0.3px 0.7px 0.6px hsl(var(--shadow-color) / 0.57),
+    0.4px 0.8px 0.7px -0.7px hsl(var(--shadow-color) / 0.5),
+    0.9px 2px 1.6px -1.4px hsl(var(--shadow-color) / 0.43),
+    2.2px 5px 4.1px -2.1px hsl(var(--shadow-color) / 0.35),
+    4.8px 11px 9px -2.9px hsl(var(--shadow-color) / 0.28),
+    9.1px 20.8px 17px -3.6px hsl(var(--shadow-color) / 0.21),
+    15.5px 35.5px 29.1px -4.3px hsl(var(--shadow-color) / 0.14),
+    24.4px 56px 45.8px -5px hsl(var(--shadow-color) / 0.07);
   transition: all 0.3s ease;
   align-items: flex-start;
 }
 
 article:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  /* transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); */
 }
 
 .experience-info {

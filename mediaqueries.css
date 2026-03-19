@@ -164,6 +164,18 @@
   #photos, #art, #experience, #projects, #publications {
     padding-top: 0;
   }
+  article {
+    flex-direction: column;
+    min-width: auto;
+  }
+  .article-img {
+    height: auto;
+  }
+  .work-block {
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
   footer {
     position: relative;
     margin-top: 2rem;
