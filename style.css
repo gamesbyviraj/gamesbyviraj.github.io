@@ -184,6 +184,39 @@ a:hover {
   transform: none;
 }
 
+/* ANNOUNCEMENT */
+
+.site-announcement {
+  position: absolute;
+  top: calc(12px + 10vh + 0.75rem);
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 60px);
+  max-width: 1000px;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.02);
+  z-index: 900;
+}
+
+.site-announcement p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.25rem;
+  color: rgb(85, 85, 85);
+  font-size: 0.8rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.site-announcement a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 /* SECTIONS */
 
 section {

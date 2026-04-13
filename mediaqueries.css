@@ -22,6 +22,10 @@
   #hamburger-nav {
     display: flex;
   }
+  .site-announcement {
+    top: calc(10vh + 0.75rem);
+    width: calc(100% - 2rem);
+  }
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -59,6 +63,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .site-announcement p {
+    font-size: 0.95rem;
+    padding: 0.85rem 1rem;
+  }
   #contact {
     height: 40vh;
   }
